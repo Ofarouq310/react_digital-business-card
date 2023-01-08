@@ -1,0 +1,101 @@
+.app {
+  background-color: #1a1b21;
+  width: 280px;
+  height: 100%;
+  margin-inline: auto;
+  margin-top: 15px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-placeholder {
+  background-color: rgb(140, 137, 137);
+  height: 35vh;
+  border-radius: 8px 8px 0 0;
+}
+
+.headings-container {
+  padding-top: 20px;
+}
+
+#heading-1 {
+  padding-bottom: 6px;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 0.05ch;
+  color: #f5f5f5f4;
+}
+
+#heading-2 {
+  padding-bottom: 10px;
+  color: #f3bf99d7;
+  font-size: 11.25px;
+}
+
+#heading-3 {
+  padding-bottom: 15px;
+  color: #f5f5f5df;
+  font-size: 9.5px;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 30px;
+}
+
+.main-btns {
+  width: 105px;
+}
+
+.text-container {
+  padding: 20px 25px 0 35px;
+  text-align: left;
+}
+
+.headings-4-5 {
+  padding-bottom: 3px;
+}
+
+.about-interests_text {
+  color: #dcdcdc;
+  font-size: 9.5px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.06ch;
+}
+
+.interests-list {
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-inline-start: 20px;
+  flex-wrap: wrap;
+  height: 60px;
+  padding-top: 2px;
+  gap: 3px;
+}
+
+.interests-list li::marker {
+  color: #ee9d64d7;
+}
+
+.footer {
+  background-color: #161619;
+  margin-top: 16px;
+  padding: 13px 20px;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer > img {
+  width: 23px;
+  height: auto;
+}
