@@ -14,7 +14,10 @@
 }
 
 .img-placeholder {
-  background-color: rgb(140, 137, 137);
+  background-image: url("src/assets/photo1.jpg");
+  background-size: cover;
+  background-position: center 5%;
+  background-repeat: no-repeat;
   height: 35vh;
   border-radius: 8px 8px 0 0;
 }
