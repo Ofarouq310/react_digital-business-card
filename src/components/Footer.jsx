@@ -17,7 +17,7 @@ export default function Footer(){
             </a>
 
             <a href="https://www.github.com/Ofarouq310" target={'_blank'}>
-                <img className='footer-img' src='./public/images/GitHub Icon.png' alt='github-icon' />
+                <img className='footer-img' src='./public/GitHub Icon.png' alt='github-icon' />
             </a>
         </div>
     )
