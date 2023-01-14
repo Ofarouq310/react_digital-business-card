@@ -14,7 +14,7 @@
 }
 
 .img-placeholder {
-  background-image: url("/public/photo1.jpg");
+  background-image: url('src/assets/photo1.jpg');
   background-size: cover;
   background-position: center 5%;
   background-repeat: no-repeat;
