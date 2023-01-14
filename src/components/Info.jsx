@@ -1,4 +1,6 @@
 import React from 'react';
+import mailBtn from '../assets/email-btn.png';
+import linkedinBtn from '../assets/linkedin-btn.png';
 
 
 export default function Info() {
@@ -12,10 +14,10 @@ export default function Info() {
             </div>
             <div className="btns-container">
                 <a href="mailto:ofarouq310@gmail.com">
-                    <img src="src/assets/email-btn.png" className='main-btns' />
+                    <img src={mailBtn} className='main-btns' />
                 </a>
                 <a href="https://www.linkedin.com/in/Ofarouq310/" target={'_blank'}>
-                    <img src="src/assets/linkedin-btn.png" className='main-btns' />
+                    <img src={linkedinBtn} className='main-btns' />
                 </a>
                 
             </div>
